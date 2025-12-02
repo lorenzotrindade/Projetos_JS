@@ -1,0 +1,39 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+/*main é igual a body, não confunde com conteiner*/
+
+main {
+    display:flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(255, 199, 0);
+    width:400px;
+    height: 600px;
+    justify-content: space-evenly;
+border-radius: 20px;
+box-shadow: 0 0 10px black;
+
+
+}
+
+.title {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 50px;
+    font:bold 2.5rem serif;
+    border-bottom:solid 5px black;
+    margin-bottom: 20px;
+    
+}
