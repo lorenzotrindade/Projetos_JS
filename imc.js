@@ -6,11 +6,14 @@ const calcular = document.getElementById("calcular");
 const resultado = document.getElementById("resultado");
 
 function imc(){
-    if (nome.value == '') {
-        alert("No name");
+    if ( nome !== '' && altura !== '' && peso !== '') {
+         
+      const valorIMC = (peso/(altura * altura ));
+
+      resultado.textContent = valorIMC;
     
     } else {
-    alert("Nome preenchido: " + nome.value);
+    resultado.textContent =  'Preencha todos os campos'
   }
 
     
