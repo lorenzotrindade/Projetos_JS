@@ -1,17 +1,20 @@
-const nome = document.getElementById("nome").value;
-const peso = document.getElementById("peso");
-const altura = document.getElementById("altura");
+
 
 const calcular = document.getElementById("calcular");
-const resultado = document.getElementById("resultado");
+
 
 function imc(){
-    if (nome.value == '') {
-        alert("No name");
-    
-    } else {
-    alert("Nome preenchido: " + nome.value);
-  }
+      const nome = document.getElementById("nome").value;
+      const peso = document.getElementById("peso").value;
+      const altura = document.getElementById("altura").value;
+      /*colcoando o ponto valuie aqui indicoquie quero o valor da caixas */ 
+      const resultado = document.getElementById("resultado");
+
+if (nome !== '' && altura !== '' && peso !== '') {
+    console.log("Todas as variáveis estão preenchidas");
+} else {
+    console.log("Alguma variável está vazia");
+}
 
     
 
