@@ -1,8 +1,4 @@
-*{
-    margin:0px;
-    padding:0px;
 
-}
 /*main é igual a body, não confunde com conteiner*/
 
 main {
@@ -13,15 +9,16 @@ main {
     align-items: center;
 }
 
-.conteiner{
+.box{
     display:flex;
     flex-direction: column;
     background-color: rgb(255, 199, 0);
     width:400px;
     height: 600px;
     justify-content: space-evenly;
-border-radius: 20px;
-box-shadow: 0 0 10px black;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
 
 
 }
@@ -38,7 +35,7 @@ box-shadow: 0 0 10px black;
     
 }
 
-.input {
+.div_input{
     display: flex;
     width: 300px;
     height: 50px;
@@ -46,18 +43,21 @@ box-shadow: 0 0 10px black;
     align-items: center;
 }
 
-.input input{
+.div_input input{
     width: 200px;
     height: 50px;
     border-radius: 5px;
     border: none;
     outline: 0;
     font:bold 1.5rem serif;
+     font-weight: bold;
+    font-size: 1.5em;
     text-align: center;
 }
 
-.input label {
+.div_input label {
     font: bold 1.5rem serif;
+    font-family: sans-serif;
 
 }
 

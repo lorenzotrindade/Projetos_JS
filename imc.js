@@ -19,8 +19,10 @@ if (nome !== '' && altura !== '' && peso !== '') {
 
     if ( nome !== '' && altura !== '' && peso !== '') {
          
+      // o calculo de IMC é o peso vezes altura ao quadrado
       const valorIMC = (peso/(altura * altura ));
 
+      // calculo sendo jogado no resultado, mas aqui pegamos quaqluer valor do HTML
       resultado.textContent = valorIMC;
     
     } else {
